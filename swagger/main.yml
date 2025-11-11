@@ -1,0 +1,24 @@
+paths:
+  /auth/login:
+    post:
+      tags:
+        - Autenticación
+      summary: Iniciar sesión del usuario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: usuario@ejemplo.com
+                password:
+                  type: string
+                  example: micontrasena123
+      responses:
+        '200':
+          description: Inicio de sesión exitoso. Retorna un token.
+        '400':
+          description: Credenciales inválidas.
