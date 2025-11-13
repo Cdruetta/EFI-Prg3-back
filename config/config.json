@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "3232",
+    "database": "alquiler_autos",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "ZqPeWsrarzIOObnraSfwuHWviLyommqV",
+    "database": "railway",
+    "host": "gondola.proxy.rlwy.net",
+    "port": 14886,
+    "dialect": "mysql"
+  }
+}
